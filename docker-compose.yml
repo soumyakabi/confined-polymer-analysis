@@ -1,0 +1,16 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: confined-polymer-app:latest
+    container_name: confined_polymer_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app:rw
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_ENABLE_CORS=false
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
