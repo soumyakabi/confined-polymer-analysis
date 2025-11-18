@@ -1,4 +1,4 @@
-# Confined Polymer Analysis (EXACT Implementation)
+# Confined Polymer Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXX)
@@ -457,8 +457,8 @@ If you use this software in your research, please cite:
 
 ```bibtex
 @software{confined_polymer_analysis_2025,
-  author = {Your Name},
-  title = {Confined Polymer Analysis: EXACT Implementation},
+  author = {Kabi et. al.},
+  title = {Confined Polymer Analysis},
   year = {2025},
   publisher = {GitHub},
   url = {https://github.com/YOUR_USERNAME/confined-polymer-analysis},
